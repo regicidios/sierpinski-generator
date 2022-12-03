@@ -18,10 +18,7 @@ print(f"Iterations: {depth}")
 def drawsierpinski(length,depth):
     t.fillcolor(f"{fillcolor}")
     t.begin_fill()
-
-    if depth or length<0:
-        raise ValueError("Length/iteration value cannot be negative.")
-
+    
     if depth==0:
         for i in range(0,3):
             t.fd(length)
