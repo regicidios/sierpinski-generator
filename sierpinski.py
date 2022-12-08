@@ -46,6 +46,8 @@ def setpos():
 window=turtle.Screen()
 window.title("Sierpiński Triangle")
 t=turtle.Turtle()
+t.hideturtle()
+t.speed(10)
 
 setpos()
 t.pen(pencolor=f"{linecolor}", speed=4, pendown=True)
